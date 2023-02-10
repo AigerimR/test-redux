@@ -1,0 +1,22 @@
+.modal_container {
+  position: absolute;
+  top: 20%;
+  left: calc(50vw - 300px);
+  width: 600px;
+  padding: 30px;
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.modal_btns {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.modal_input {
+  width: 100%;
+}
